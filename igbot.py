@@ -50,5 +50,5 @@ class InstaBot:
             print("oh no! something went wrong! look at that: " + e)
             time.sleep(5)
 
-BotClass = InstaBot('merryweather553', 'batata123')
+BotClass = InstaBot(**', '**')
 BotClass.login()
