@@ -36,9 +36,7 @@ class InstaBot:
         driver.get("https://www.instagram.com/p/CFSGUrOl4Ll/?utm_source=ig_web_copy_link")
         try:
             while True:
-                possible_comments = ["tentando dnv", "esse up vai ser meu", "foda!", "quero dms!", "ahoo boa, garoto!", "vamo que vamo!", "que sonho, véi!", "tamo aqui na lida ksksk", 
-                "nao desisto ate conseguir", "no pain no gain, carai kkk", "vamo na fe", "rambooora mlakada", "esse Up é MEEU! KKK", 
-                "ainda nao desisti kkkkkk", "maaaano esse up ta mt lindo pqp", "adoro um Up,  e esse tá lindo", "que vontade de dar umas acelerada kkkk"]
+                possible_comments = ["****"]
                 driver.find_element_by_class_name('Ypffh').click()
                 comment_box = driver.find_element_by_class_name('Ypffh')
                 time.sleep(random.randint(2,5))
