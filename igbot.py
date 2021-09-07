@@ -75,6 +75,8 @@ class InstaBot:
                 except Exception as e:
                     print("oh no! something went wrong! look at that: " + e)
                     time.sleep(5)
+BotClass = InstaBot(username, password, PATH, hashtag)
+BotClass.login_action()
 
 BotClass = InstaBot(username, password, PATH, hashtag)
 BotClass.login_action()
